@@ -1,0 +1,15 @@
+Face Recognition Project - Project4U Mangalore
+install python 3.6
+download pycharm
+which are attached with this mail
+install following packages:
+pip install opencv-python
+pip install pandas
+pip install opencv-contrib-python
+pip install PILLOW
+
+1. Unzip folder which is attched with this mail.
+2. Run datasetCreator.py file from the folder.(This will ask for an Id, enter any number.It will take your 31 face images and stores in folder Dataset )
+3. Run trainner.py this will train the images from the Created dataset using LBP(Local Binary Pattern) and strores values in trainingData.yml file
+which is in recognizer folder.
+4. Edit detector.py file giving respective Id and corresponding name in if condition.
